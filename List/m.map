@@ -1,0 +1,22 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+time_elapsed                                                                      R3,R4        2
+computed_distance                                                                 R5,R6        2
+warning_action                                                                    R7,R8        2
+barrier_state                                                                     R9,R10       2
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+timer1_compa_isr                                                                  0x0007E     33
+ext_int0_isr                                                                      0x0009F     51
+main                                                                              0x000D2    117
